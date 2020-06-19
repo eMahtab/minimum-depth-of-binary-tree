@@ -16,6 +16,9 @@ Example: Given binary tree [3,9,20,null,null,15,7],
 return its minimum depth = 2.
 ```
 
+### Approach : 
+Idea is to traverse the nodes of the binary tree level by level, the first time we see a leaf node that means, we are done, and we return the depth till that node, because we are asked for the minimum depth of the binary tree.
+
 ## Implementation :
 
 ```java
